@@ -1,0 +1,41 @@
+body{
+  background-color: #AA8439;
+}
+.important{
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: 3vw;
+  font-family: 'Questrial', sans-serif;
+}
+
+.timer{
+  height: 400px;
+  margin: auto;
+  margin-top: 2%;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #226666;
+  border: 3px solid #73ad21;
+}
+#countDown,.countDown,#date{
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+}
+.btn-success,.a{
+  margin-top:5%;
+}
+input{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+input:hover {opacity: 1}

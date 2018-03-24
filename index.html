@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <audio id ="alarm" src="http://soundbible.com/grab.php?id=2197&type=mp3" type ="audio/mp3"></audio>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <div class ="text-center important">
+     POMODORO CLOCK
+  </div>
+  <div class = "setTime">
+      <div class = "text-center">
+        <h3 class ="break" id="break"> Time to Break </h3>
+        <button type="button" class="btn btn-default btn-sm" id = "breakPlus"><span class="glyphicon glyphicon-plus-sign"></span> Plus</button>
+        <button type="button" class="btn btn-default btn-sm" id ="breakMinus"><span class="glyphicon glyphicon-minus-sign"></span> Minus</button>
+      </div>
+    <div class = 'text-center'>
+        <h3 class ="time text-center" id="time"> Time to Work</h3>
+        <button type="button" class="btn btn-default btn-sm" id ="setPlus"><span class="glyphicon glyphicon-plus-sign"></span> Plus</button>
+        <button type="button" class="btn btn-default btn-sm" id ="setMinus"><span class="glyphicon glyphicon-minus-sign"></span> Minus</button>
+  </div>
+  </div>
+    <div class="text-center timer">
+    <input type="button" class ="btn-success text-center" id="resume" value ="RESUME THE TIMER"></input>
+    <div>
+    <h4 id ="countDown" class="text-center">Work Session</h4>
+    <span class="text-center countDown" id="displayTime"></span>
+  </div>
+      <input type="button" class ="btn-danger text-center" id="stop" value ="STOP THE TIMER"></input>
+<input type="button" class ="btn-success text-center" id="start" value ="START THE TIMER"></input>
+<h4 class="text-center" id="date"> The date today</h4>
+</div>
+    </div>
+  </div>
+  <div class ="text-center">
+    <input type="button" class ="btn-default text-center a" id="reset" value ="RESET THE TIMER"></input>
+</div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
